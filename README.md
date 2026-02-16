@@ -135,6 +135,6 @@ This project is open source and available for educational purposes.
 
 ## 👨‍💻 Author
 
-**YogeshK34**
+**Ruhi-Khan**
 
 Feel free to reach out for any questions or suggestions!
