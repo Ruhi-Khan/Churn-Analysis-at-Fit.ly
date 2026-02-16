@@ -1,131 +1,140 @@
-🏋️‍♂️ Fit.ly Customer Churn Analysis Dashboard
+# 🏋️‍♂️ Fit.ly Customer Churn Analysis Dashboard
 
 A full-stack data analytics web application that analyzes customer churn for a fitness app and predicts whether a customer is likely to stay or churn using machine learning.
 
 This project integrates Python, Machine Learning, Flask, HTML, CSS, and Data Visualization into an interactive dashboard.
 
+---
 
-📌 Project Overview
+## 📌 Project Overview
 
 Customer churn is a major challenge for subscription-based platforms. This project analyzes customer behavior and predicts churn using historical data.
 
 The dashboard provides:
 
-Key churn metrics
+- ✅ Key churn metrics
+- ✅ Visual analytics charts
+- ✅ Machine learning churn prediction
+- ✅ Interactive user input form
 
-Visual analytics charts
+---
 
-Machine learning churn prediction
+## 🚀 Features
 
-Interactive user input form
+### 📊 Data Analytics Dashboard
 
+- **Total Customers**
+- **Total Churned Users**
+- **Churn Percentage**
+- **Machine Learning Model Accuracy**
 
-🚀 Features
-📊 Data Analytics Dashboard
+### 📈 Visualizations
 
-Total Customers
+- Churn by Subscription Type (Bar Chart)
+- Overall Churn Distribution (Pie Chart)
+- Confusion Matrix Heatmap
 
-Total Churned Users
+### 🤖 Machine Learning Prediction
 
-Churn Percentage
+Predicts whether a customer will **STAY** or **CHURN** based on:
 
-Machine Learning Model Accuracy
+- Age
+- Subscription Plan
+- App Usage Hours
 
-📈 Visualizations
+### 🌐 Web Interface
 
-Churn by Subscription Type (Bar Chart)
+- Built with Flask, HTML, and CSS
+- Clean and responsive UI
 
-Overall Churn Distribution (Pie Chart)
+---
 
-Confusion Matrix Heatmap
+## 🖥️ Screenshots
 
-🤖 Machine Learning Prediction
+### Customer Likely to Stay
+![Customer Likely to Stay](static/positive_output.png)
 
-Predicts whether a customer will STAY or CHURN
+### Customer Likely to Churn
+![Customer Likely to Churn](static/negative_output.png)
 
-Based on:
+---
 
-Age
+## 🛠️ Tech Stack
 
-Subscription Plan
+| Category | Technologies |
+|----------|-------------|
+| **Programming & ML** | Python, Pandas, NumPy, Scikit-learn |
+| **Web Framework** | Flask |
+| **Frontend** | HTML5, CSS3 |
+| **Visualization** | Matplotlib, Seaborn |
 
-App Usage Hours
+---
 
-🌐 Web Interface
+## 📂 Project Structure
 
-Built with Flask, HTML, and CSS
-
-Clean and responsive UI
-
-
-## 🖥️ Screenshots  
-
-<h3>Customer Likely to Stay</h3>
-<img src="static/positive_output.png" width="800"/>
-
-<h3>Customer Likely to Churn</h3>
-<img src="static/negative_output.png" width="800"/>
-
-
-🛠️ Tech Stack
-
-Programming & ML
-
-Python
-
-Pandas
-
-NumPy
-
-Scikit-learn
-
-Web Framework
-
-Flask
-
-Frontend
-
-HTML5
-
-CSS3
-
-Visualization
-
-Matplotlib
-
-Seaborn
-
-
-📂 Project Structure
-
+```
 Churn-Analysis-at-Fit.ly/
 │
-├── app.py
-├── requirements.txt
-├── static/
-│   ├── style.css
-│   ├── bar.png
-│   ├── pie.png
-│   ├── confusion.png
+├── app.py                 # Main Flask application
+├── requirements.txt       # Python dependencies
+├── static/               
+│   ├── style.css         # Custom styles
+│   ├── bar.png           # Bar chart visualization
+│   ├── pie.png           # Pie chart visualization
+│   └── confusion.png     # Confusion matrix heatmap
 │
 ├── templates/
-│   └── index.html
+│   └── index.html        # Main dashboard template
 │
-└── README.md
+└── README.md             # Project documentation
+```
 
-⚙️ How to Run the Project
+---
 
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/Churn-Analysis-at-Fit.ly.git
+## ⚙️ How to Run the Project
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/YogeshK34/Churn-Analysis-at-Fit.ly.git
 cd Churn-Analysis-at-Fit.ly
+```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-3️⃣ Run the Flask App
+### 3️⃣ Run the Flask App
+
+```bash
 python app.py
+```
 
-4️⃣ Open in Browser
+### 4️⃣ Open in Browser
+
+Navigate to:
+```
 http://127.0.0.1:5000/
+```
 
-🔗 Live Demo: Coming Soon..
+---
+
+## 🔗 Live Demo
+
+Coming Soon...
+
+---
+
+## 📄 License
+
+This project is open source and available for educational purposes.
+
+---
+
+## 👨‍💻 Author
+
+**YogeshK34**
+
+Feel free to reach out for any questions or suggestions!
