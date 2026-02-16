@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Churn Analysis at Fit.ly</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+<h1>Churn Analysis Dashboard - Fit.ly</h1>
+
+<div class="cards">
+    <div class="card">Total Customers<br><span>{{ total_customers }}</span></div>
+    <div class="card">Total Churned<br><span>{{ total_churn }}</span></div>
+    <div class="card">Churn %<br><span>{{ churn_percent }}%</span></div>
+    <div class="card">Model Accuracy<br><span>{{ accuracy }}%</span></div>
+</div>
+
+<h2>Visual Analysis</h2>
+
+<div class="charts">
+    <img src="{{ url_for('static', filename='bar.png') }}">
+    <img src="{{ url_for('static', filename='pie.png') }}">
+    <img src="{{ url_for('static', filename='confusion.png') }}">
+</div>
+
+<h2>Predict Customer Churn</h2>
+
+<form method="POST">
+    Age: <input type="number" name="age" required>
+    Subscription:
+    <select name="subscription">
+        <option value="1">Silver</option>
+        <option value="2">Gold</option>
+        <option value="3">Platinum</option>
+    </select>
+    Usage Hours: <input type="number" name="usage" required>
+    <button type="submit">Predict</button>
+</form>
+
+<p class="prediction">{{ prediction_text }}</p>
+
+</div>
+
+</body>
+</html>
